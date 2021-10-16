@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 body {
     background-color:aqua;
+    linear-gradient: 12px 10px;
 }
 #heading {
     text-align: center;
@@ -10,7 +11,7 @@ body {
     font-size: 28pt;
 }
 .container {
-    margin-left: 140px;
+    margin-left: 170px;
     width: 515px;
 }
 #select_assignment_lbl, #upload_assignment_lbl {
@@ -25,8 +26,8 @@ body {
     width: 300px;
     text-align:center;
     color: #000000;
-    background: #eeeeee;
-    border: 2px solid #dddddd;
+    background: #3A75BB;
+    border: 2px solid #3A75BB;
     cursor: pointer;
     border-radius: 5px;
     font-family: 'Poppins';
@@ -36,10 +37,10 @@ body {
 .select_assignment:focus,
 #choose::-webkit-file-upload-button:hover{
     outline: none;
-    border: 2px solid #bbbbbb;
+    border: 2px solid #7ca4d4;
 }
 .select_assignment option{
-    border: 2px solid #bbbbbb;
+    border: 2px solid #3A75BB;
 }
 #choose{
     margin-top: 40px;
@@ -49,23 +50,23 @@ body {
     font-family: 'Poppins';
 }
 #choose::-webkit-file-upload-button{
-    border: 2px solid #dddddd;
+    border: 2px solid #3A75BB;
     border-radius: 5px;
     width: 160px;
     padding: 1px 11px;
-    background: #eeeeee;
+    background: #3A75BB;
     font-size: 14pt;
     font-family: 'Poppins';
 }
 .checkboxes{
-    margin-top: 10px;
+    margin-top: 5px;
     margin-left: 30px;
     font-size: 14pt;
     font-family: 'Poppins';
 }
 .check-color:checked::after{
     animation: click-wave 0.5s;
-    background:coral;
+    background:#3A75BB;
     content: '';
     display: block;
     position: relative;
@@ -99,9 +100,9 @@ body {
     height: 30px;
     width: 30px;
     transition: all 0.15s ease-out 0s;
-    background:coral;
+    background:#3A75BB;
     border: 0;
-    color: rgb(196, 71, 26);
+    color: #000000;
     cursor: pointer;
     display: inline-block;
     margin-right: 0.5rem;
@@ -125,15 +126,15 @@ body {
     padding: 5px 24px;
     font-size: 14pt;
     font-family: 'Poppins';
-    background-color:coral;
+    background-color:#3A75BB;
     border: 0;
     border-radius: 10px;
 }
 .btns:hover{
     cursor: pointer;
     transform: scale(1.1);
-    box-shadow: 0px 0px 25px rgb(187, 88, 52);
+    box-shadow: 0px 0px 25px #194e8f;
 }
 .btns:active{
-    background-color:rgb(196, 71, 26);
+    background-color:#194e8f;
 }
